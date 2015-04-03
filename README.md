@@ -4,27 +4,43 @@ Grunt很强大，有很完善的社区和设计模式，但是学习成本很高
 这里主要是用来存放常用的gulp配置。
 ####安装gulp - Windows系统
 1、安装Nodejs：
-`[下载对应版本Nodejs](https://nodejs.org/download/)(Windows下载.msi安装包)`
+
+    [下载对应版本Nodejs](https://nodejs.org/download/)(Windows下载.msi安装包)
+
 
 2、安装NPM模块管理：
-`参考[Windows Install or Upgrade](https://github.com/npm/npm#windows-install-or-upgrade)`
+
+    参考[Windows Install or Upgrade](https://github.com/npm/npm#windows-install-or-upgrade)
+
 
 3、将npm源代码解压到D:\npmjs目录，在命令提示符窗口执行下面操作，完成npm的安装：
-`$cd npmjs`
-`$node cli.js install -gf`
+
+    $cd npmjs
+    $node cli.js install -gf
+
  另外：
-`node cli.js install npm -gf //安装最新版的NPM`
-`node cli.js install npm@1.0.104 -gf //安装指定版本的NPM`
+ 
+
+    node cli.js install npm -gf //安装最新版的NPM
+    node cli.js install npm@1.0.104 -gf //安装指定版本的NPM
+
 
 4、安装gulp及gulp插件
-+ 全局安装
-`$npm install gulp -g`
 
-+ 安装到项目，在项目目录中增加gulp.js依赖
-`$npm install gulp --save-dev gulp`
+全局安装
 
-+ 可以将gulp及常用的gulp插件进行全局安装，再通过下面的方法将它们引入到项目目录中。
-`$npm link gulp`
+    $npm install gulp -g
+
+
+安装到项目，在项目目录中增加gulp.js依赖
+
+    $npm install gulp --save-dev gulp
+
+
+可以将gulp及常用的gulp插件进行全局安装，再通过下面的方法将它们引入到项目目录中。
+
+    $npm link gulp
+
 
 ####常用插件
 + gulp-imagemin //图片压缩

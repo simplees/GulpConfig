@@ -4,13 +4,11 @@ Grunt很强大，有很完善的社区和设计模式，但是学习成本很高
 这里主要是用来存放常用的gulp配置。
 ####安装gulp - Windows系统
 1、安装Nodejs：
-
-    [下载对应版本Nodejs](https://nodejs.org/download/)(Windows下载.msi安装包)
+[下载对应版本Nodejs](https://nodejs.org/download/)(Windows下载.msi安装包)
 
 
 2、安装NPM模块管理：
-
-    参考[Windows Install or Upgrade](https://github.com/npm/npm#windows-install-or-upgrade)
+参考[Windows Install or Upgrade](https://github.com/npm/npm#windows-install-or-upgrade)
 
 
 3、将npm源代码解压到D:\npmjs目录，在命令提示符窗口执行下面操作，完成npm的安装：
